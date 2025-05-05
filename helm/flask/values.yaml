@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: dimrev/flask-ai-app
-  tag: latest
+  tag: 81a06cbf91739ad69e93e761b179c0c87dfd405d
   pullPolicy: Always
 
 service:
