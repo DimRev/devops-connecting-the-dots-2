@@ -1,3 +1,5 @@
+.venv/
+
 # Terraform-related files
 .terraform/
 **/.terraform/*
