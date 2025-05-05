@@ -1,0 +1,57 @@
+# Terraform-related files
+.terraform/
+**/.terraform/*
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Helm-related files
+*.swp
+*.bak
+*.tmp
+*.orig
+*~
+.DS_Store
+.project
+.idea/
+*.tmproj
+.vscode/
+.bzr/
+.bzrignore
+.hg/
+.hgignore
+.svn/
+
+# Kubernetes-related files
+eks-admin-cluster-role-binding.yaml
+eks-admin-service-account.yaml
+config-map-aws-auth*.yaml
+kubeconfig_*
+
+# Crash logs
+crash.log
+
+# General backup and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+*~
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.tmproj
+.project
+
+# Ignore system files
+.DS_Store
+Thumbs.db
